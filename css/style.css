@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* START MAIN BOX 1 */
+.main-box1 {
+  padding: 100px 0;
+}
+.main-box1 .row {
+  display: flex;
+}
+.main-box1 .row .col {
+  width: 50%;
+  height: 600px;
+  position: relative;
+}
+.main-box1 .row .bg-blue {
+  background-color: rgb(145, 192, 255);
+}
+.main-box1 .row .bg-red {
+  background-color: rgb(255, 121, 186);
+}
+.main-box1 .row .col .box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(98, 24, 103);
+  position: absolute;
+  right: -100px;
+  top: 200px;
+  z-index: 1;
+}
+
+/* END MAIN BOX 1 */
+
+/* START MAIN BOX 2 */
+.main-box2 {
+  padding: 100px 0;
+}
+.main-box2 .row {
+  display: flex;
+}
+.main-box2 .row .bg-blue {
+  background-color: rgb(145, 192, 255);
+}
+.main-box2 .row .col {
+  width: 50%;
+  height: 600px;
+  position: relative;
+}
+.main-box2 .row .col .box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(98, 24, 103);
+  position: absolute;
+  left: -100px;
+  bottom: -100px;
+}
+/* END MAIN BOX 2 */
+
+/* START MAIN BOX 3 */
+.main-box3 {
+  padding: 100px 0;
+}
+.main-box3 .row {
+  display: flex;
+}
+.main-box3 .row .col {
+  width: 50%;
+  height: 600px;
+  position: relative;
+}
+.main-box3 .row .bg-blue {
+  background-color: rgb(145, 192, 255);
+}
+.main-box3 .row .col .box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(98, 24, 103);
+  position: absolute;
+  right: -100px;
+  top: 0px;
+}
+
+/* END MAIN BOX 3 */
+
+/* START MAIN BOX 4 */
+.main-box4 {
+  padding: 100px 0;
+}
+.main-box4 .row {
+  display: flex;
+}
+.main-box4 .row .col {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.main-box4 .row .bg-blue {
+  background-color: rgb(145, 192, 255);
+}
+.main-box4 .row .bg-red {
+  background-color: rgb(255, 121, 186);
+}
+.main-box4 .bg-green {
+  background-color: rgb(121, 255, 204);
+}
+.main-box4 .row .col .box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(98, 24, 103);
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
+  z-index: 1;
+}
+/* END MAIN BOX 4 */
